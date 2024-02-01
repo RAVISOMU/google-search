@@ -1,0 +1,46 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  height: 40px;
+  width: 40px;
+}
+
+.suggestion {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 30px;
+}
+
+button {
+  cursor: pointer;
+  border-width: 0px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 575px) {
+  .suggestion {
+    font-size: 14px;
+    margin-left: 0px;
+  }
+
+  .arrow {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .suggestion {
+    font-size: 20px;
+    margin-left: 0px;
+  }
+
+  .arrow {
+    height: 20px;
+    width: 20px;
+  }
+}

@@ -1,0 +1,83 @@
+.bg-container {
+  min-height: 100vh;
+  padding: 100px;
+}
+
+.google-card {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-logo {
+  height: 150px;
+  width: 460px;
+  margin-bottom: 50px;
+}
+
+.bg-card {
+  width: 700px;
+  box-shadow: 2px 2px 2px 2px #bfbfbf;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-card {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  height: 32px;
+  width: 34px;
+}
+
+.search-input {
+  height: 40px;
+  width: 100%;
+  border-width: 0px;
+  outline: none;
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 26px;
+  padding: 10px;
+}
+
+.list-container {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 575px) {
+  .google-logo {
+    height: 80px;
+    width: 240px;
+  }
+
+  .bg-card {
+    width: 260px;
+  }
+
+  .search-input {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .google-logo {
+    height: 90px;
+    width: 260px;
+  }
+
+  .bg-card {
+    width: 400px;
+  }
+
+  .search-input {
+    font-size: 20px;
+  }
+}
